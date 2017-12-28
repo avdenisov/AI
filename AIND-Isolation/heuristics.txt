@@ -1,0 +1,79 @@
+
+runfile('/home/a_denisov/PycharmProjects/AI Udacity/AIND-Isolation/tournament.py', wdir='/home/a_denisov/PycharmProjects/AI Udacity/AIND-Isolation')
+Reloaded modules: isolation, isolation.isolation, sample_players, game_agent
+
+This script evaluates the performance of the custom_score evaluation
+function against a baseline agent using alpha-beta search and iterative
+deepening (ID) called `AB_Improved`. The three `AB_Custom` agents use
+ID and alpha-beta search with the custom_score functions defined in
+game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      98  |   2    97  |   3    97  |   3    97  |   3  
+    2       MM_Open     81  |  19    81  |  19    80  |  20    84  |  16  
+    3      MM_Center    94  |   6    95  |   5    100 |   0    95  |   5  
+    4     MM_Improved   81  |  19    78  |  22    84  |  16    79  |  21  
+    5       AB_Open     50  |  50    53  |  47    44  |  56    52  |  48  
+    6      AB_Center    63  |  37    57  |  43    59  |  41    58  |  42  
+    7     AB_Improved   45  |  55    52  |  48    54  |  46    52  |  48  
+--------------------------------------------------------------------------
+           Win Rate:      73.1%        73.3%        74.0%        73.9%    
+
+There were 1.0 timeouts during the tournament -- make sure your agent handles search timeout correctly, and consider increasing the timeout margin for your agent.
+
+
+runfile('/home/a_denisov/PycharmProjects/AI Udacity/AIND-Isolation/tournament.py', wdir='/home/a_denisov/PycharmProjects/AI Udacity/AIND-Isolation')
+Reloaded modules: isolation, isolation.isolation, sample_players, game_agent
+
+This script evaluates the performance of the custom_score evaluation
+function against a baseline agent using alpha-beta search and iterative
+deepening (ID) called `AB_Improved`. The three `AB_Custom` agents use
+ID and alpha-beta search with the custom_score functions defined in
+game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      98  |   2    99  |   1    97  |   3    98  |   2  
+    2       MM_Open     82  |  18    79  |  21    86  |  14    90  |  10  
+    3      MM_Center    96  |   4    97  |   3    98  |   2    93  |   7  
+    4     MM_Improved   73  |  27    79  |  21    80  |  20    75  |  25  
+    5       AB_Open     50  |  50    45  |  55    58  |  42    51  |  49  
+    6      AB_Center    66  |  34    60  |  40    61  |  39    59  |  41  
+    7     AB_Improved   59  |  41    52  |  48    53  |  47    49  |  51  
+--------------------------------------------------------------------------
+           Win Rate:      74.9%        73.0%        76.1%        73.6%    
+
+runfile('/home/a_denisov/PycharmProjects/AI Udacity/AIND-Isolation/tournament.py', wdir='/home/a_denisov/PycharmProjects/AI Udacity/AIND-Isolation')
+Reloaded modules: isolation, isolation.isolation, sample_players, game_agent
+
+This script evaluates the performance of the custom_score evaluation
+function against a baseline agent using alpha-beta search and iterative
+deepening (ID) called `AB_Improved`. The three `AB_Custom` agents use
+ID and alpha-beta search with the custom_score functions defined in
+game_agent.py.
+
+                        *************************                         
+                             Playing Matches                              
+                        *************************                         
+
+ Match #   Opponent    AB_Improved   AB_Custom   AB_Custom_2  AB_Custom_3 
+                        Won | Lost   Won | Lost   Won | Lost   Won | Lost 
+    1       Random      96  |   4    98  |   2    96  |   4    98  |   2  
+    2       MM_Open     81  |  19    83  |  17    86  |  14    82  |  18  
+    3      MM_Center    93  |   7    95  |   5    97  |   3    97  |   3  
+    4     MM_Improved   80  |  20    83  |  17    78  |  22    84  |  16  
+    5       AB_Open     53  |  47    55  |  45    54  |  46    61  |  39  
+    6      AB_Center    58  |  42    63  |  37    60  |  40    59  |  41  
+    7     AB_Improved   46  |  54    53  |  47    55  |  45    52  |  48  
+--------------------------------------------------------------------------
+           Win Rate:      72.4%        75.7%        75.1%        76.1%    
+
