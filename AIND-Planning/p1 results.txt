@@ -1,0 +1,223 @@
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 1
+
+Solving Air Cargo Problem 1 using breadth_first_search...
+
+Expansions   Goal Tests   New Nodes
+    43          56         180    
+
+Plan length: 6  Time elapsed in seconds: 0.09673482699963643
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 2
+
+Solving Air Cargo Problem 1 using breadth_first_tree_search...
+
+Expansions   Goal Tests   New Nodes
+   1458        1459        5960   
+
+Plan length: 6  Time elapsed in seconds: 2.9716493430005357
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 3
+
+Solving Air Cargo Problem 1 using depth_first_graph_search...
+
+Expansions   Goal Tests   New Nodes
+    21          22          84    
+
+Plan length: 20  Time elapsed in seconds: 0.04558550900037517
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P1, JFK)
+Fly(P1, JFK, SFO)
+Fly(P2, SFO, JFK)
+Unload(C2, P1, SFO)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P2, SFO)
+Fly(P1, JFK, SFO)
+Load(C1, P2, SFO)
+Fly(P2, SFO, JFK)
+Fly(P1, SFO, JFK)
+Unload(C2, P2, JFK)
+Unload(C1, P2, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P1, JFK)
+Fly(P1, JFK, SFO)
+Fly(P2, SFO, JFK)
+Unload(C2, P1, SFO)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 4
+
+Solving Air Cargo Problem 1 using depth_limited_search...
+
+Expansions   Goal Tests   New Nodes
+   101         271         414    
+
+Plan length: 50  Time elapsed in seconds: 0.291470713000308
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 5
+
+Solving Air Cargo Problem 1 using uniform_cost_search...
+
+Expansions   Goal Tests   New Nodes
+    55          57         224    
+
+Plan length: 6  Time elapsed in seconds: 0.11700359799942817
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 6
+
+Solving Air Cargo Problem 1 using recursive_best_first_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   4229        4230       17023   
+
+Plan length: 6  Time elapsed in seconds: 8.44735558100001
+Load(C2, P2, JFK)
+Load(C1, P1, SFO)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 7
+
+Solving Air Cargo Problem 1 using greedy_best_first_graph_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+    7           9           28    
+
+Plan length: 6  Time elapsed in seconds: 0.020334993999313156
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 8
+
+Solving Air Cargo Problem 1 using astar_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+    55          57         224    
+
+Plan length: 6  Time elapsed in seconds: 0.1220247080000263
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 9
+
+Solving Air Cargo Problem 1 using astar_search with h_ignore_preconditions...
+
+Expansions   Goal Tests   New Nodes
+    41          43         170    
+
+Plan length: 6  Time elapsed in seconds: 0.12302862900014588
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ python run_search.py -p 1 -s 10
+
+Solving Air Cargo Problem 1 using astar_search with h_pg_levelsum...
+Traceback (most recent call last):
+  File "run_search.py", line 129, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 57, in run_search
+    node = search_function(ip, parameter)
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/aimacode/search.py", line 276, in astar_search
+    return best_first_graph_search(problem, lambda n: n.path_cost + h(n))
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/aimacode/search.py", line 213, in best_first_graph_search
+    frontier.append(node)
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/aimacode/utils.py", line 602, in append
+    heapq.heappush(self._queue, (self.priorityFn(item), item))
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/aimacode/utils.py", line 283, in memoized_fn
+    val = fn(obj, *args)
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/aimacode/search.py", line 276, in <lambda>
+    return best_first_graph_search(problem, lambda n: n.path_cost + h(n))
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/aimacode/utils.py", line 283, in memoized_fn
+    val = fn(obj, *args)
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/my_air_cargo_problems.py", line 200, in h_pg_levelsum
+    pg = PlanningGraph(self, node.state)
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/my_planning_graph.py", line 220, in __init__
+    self.create_graph()
+  File "/home/a_denisov/PycharmProjects/AI Udacity/AIND-Planning/my_planning_graph.py", line 284, in create_graph
+    self.update_a_mutex(self.a_levels[level])
+IndexError: list index out of range
+(aind) a_denisov@denisov-HP-ProBook-4310s:~/PycharmProjects/AI Udacity/AIND-Planning$ 
