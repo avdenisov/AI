@@ -1,0 +1,25 @@
+-------------------
+input chars = 
+i think, watson, that you have put on seven and a half pounds since i saw you. seven! i answered. in"
+predicted chars = 
+ the destication of a woman but the the went of the sile of the sood of a strang of the long of a sh"
+-------------------
+input chars = 
+deed, i should have thought a little more. just a trifle more, i fancy, watson. and in practice agai"
+predicted chars = 
+nst the explear prone, said he, the stention of his band of a cluar do see the side of the look of i"
+-------------------
+input chars = 
+n, i observe. you did not tell me that you intended to go into harness. then, how do you know? i see"
+predicted chars = 
+ that it is not into me. that i shall be deen ther, and i see that i had never here as the dide of t"
+-------------------
+input chars = 
+ it, i deduce it. how do i know that you have been getting yourself very wet lately, and that you ha"
+predicted chars = 
+ve been curso buting in a sable to you have been curse then i could not in a get i me with the count"
+-------------------
+input chars = 
+ve a most clumsy and careless servant girl? my dear holmes, said i, this is too much. you would cert"
+predicted chars = 
+urred the restortat, said holmes, as i was as to that it is not i can father said the lade of the st"
