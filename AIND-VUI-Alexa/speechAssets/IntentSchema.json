@@ -1,0 +1,64 @@
+{
+    "intents": [
+      {
+        "intent": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "intent": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "intent": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "intent": "GetNewFactIntent",
+        "samples": [
+          "a fact",
+          "tell me a fact",
+          "give me a fact",
+          "give me something",
+          "a story",
+          "a history fact",
+          "tell me a history fact",
+          "give me a history fact",
+          "tell me trivia",
+          "give me trivia",
+          "give me a history trivia",
+          "give me some information",
+          "give me some history information",
+          "tell me something",
+          "tell me a story"
+        ],
+        "slots": []
+      },
+      {
+        "intent": "GetNewYearFactIntent",
+        "samples": [
+          "{FACT_YEAR}",
+          "I am interested in {FACT_YEAR}","what happened in {FACT_YEAR}",
+          "an event in {FACT_YEAR}",
+          "tell me about an event in {FACT_YEAR}",
+          "a fact about {FACT_YEAR}",
+          "tell me a fact about {FACT_YEAR}",
+          "give me a fact about {FACT_YEAR}",
+          "give me something about {FACT_YEAR}",
+          "a story about {FACT_YEAR}",
+          "a history fact about {FACT_YEAR}",
+          "tell me a history fact about {FACT_YEAR}",
+          "give me a history fact about {FACT_YEAR}",
+          "give me some information about {FACT_YEAR}",
+          "give me some history information about {FACT_YEAR}",
+          "tell me something about {FACT_YEAR}",
+          "tell me a story about {FACT_YEAR}"
+        ],
+        "slots": [
+          {
+            "name": "FACT_YEAR",
+            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+          }
+        ]
+      }
+    ]
+}
